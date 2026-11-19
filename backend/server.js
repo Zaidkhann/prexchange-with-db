@@ -10,7 +10,7 @@ const startServer = ()=>{
         const io = new Server(server,
             {
                 cors:{
-                    origin:["https://prexchange.vercel.app","http://localhost:3000"],
+                    origin:["https://prexchange-with-db.vercel.app","http://localhost:3000"],
                     credentials:true
                 }
             }
