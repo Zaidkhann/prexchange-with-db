@@ -10,7 +10,7 @@ const app = express()
 
 app.use(
     cors({
-        origin: ["http://localhost:3000","https://prexchange.vercel.app"],
+        origin: ["http://localhost:3000","https://prexchange-with-db.vercel.app"],
         credentials: true
     })
 );
